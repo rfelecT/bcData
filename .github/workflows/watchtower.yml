@@ -1,0 +1,50 @@
+name: Bugcrowd Watchtower
+
+on:
+  schedule:
+    # اجرا هر ۶ ساعت یک‌بار (دقیقه ۰ در ساعت‌های ۰، ۶، ۱۲، ۱۸ به وقت UTC)
+    - cron: '0 */6 * * *'
+  # امکان اجرای دستی از طریق دکمه Run workflow در تب Actions گیت‌هاب
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  run-watchtower:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Dependencies
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run Watchtower Script
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: |
+          python bugcrowd_watchtower.py
+
+      - name: Commit and Push State Changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add bugcrowd_state.json
+          # اگر تغییری در فایل وضعیت وجود داشته باشد کامیت و پوش می‌کند
+          if ! git diff --cached --quiet; then
+            git commit -m "Auto-update Bugcrowd state [skip ci]"
+            git push
+          else
+            echo "No state changes to commit."
+          fi
