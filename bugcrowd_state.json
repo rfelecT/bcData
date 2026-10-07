@@ -2,7 +2,7 @@
   "https://bugcrowd.com/engagements/CCData-mbb-og": {
     "name": "CoinDesk Data - Data API",
     "url": "https://bugcrowd.com/engagements/CCData-mbb-og",
-    "max_payout": 750,
+    "max_payout": 7500,
     "in_scope": [
       "[api] http://data-api.coindesk.com/",
       "[api] https://tools-api.cryptocompare.com/"
