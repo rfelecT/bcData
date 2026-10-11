@@ -258,7 +258,27 @@
       "[website] https://marketplace.atlassian.com/apps/1235733/ai-autofill-for-jira?hosting=cloud",
       "[website] https://marketplace.atlassian.com/apps/1237726/ai-charts-for-confluence?hosting=cloud"
     ],
-    "out_of_scope": []
+    "out_of_scope": [
+      "[website] Third-party services used by Apps+ (Atlassian, Cloudflare, Google, OpenAI, Zoom, Sentry)",
+      "[website] https://appsplus.co",
+      "[website] https://broken-links.appsplus.co",
+      "[website] https://countdown-timer.appsplus.co",
+      "[website] https://docs.appsplus.co",
+      "[website] https://gender-bias.appsplus.co",
+      "[website] https://go.appsplus.co",
+      "[website] https://incoming-links.appsplus.co",
+      "[website] https://panel-macro.appsplus.co",
+      "[website] https://search-results.appsplus.co",
+      "[website] https://shortlinks.appsplus.co",
+      "[website] https://speed-reader.appsplus.co",
+      "[website] https://support.appsplus.co",
+      "[website] https://tabs.appsplus.co",
+      "[website] https://tag-cloud.appsplus.co",
+      "[website] https://update-this.appsplus.co",
+      "[website] https://word-count.appsplus.co",
+      "[website] https://www.appsplus.co",
+      "[website] https://zoom-recordings.appsplus.co"
+    ]
   },
   "https://bugcrowd.com/engagements/appsvio": {
     "name": "Appsvio Marketplace Bug Bounty",
@@ -6263,7 +6283,7 @@
   "https://bugcrowd.com/engagements/vinted-uab-mbb": {
     "name": "Vinted Bug Bounty",
     "url": "https://bugcrowd.com/engagements/vinted-uab-mbb",
-    "max_payout": 4000,
+    "max_payout": 8000,
     "in_scope": [
       "[android] https://play.google.com/store/apps/details?id=fr.vinted",
       "[ios] https://apps.apple.com/us/app/vinted-pre-loved-marketplace/id632064380",
