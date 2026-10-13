@@ -983,6 +983,7 @@
       "[ios] https://apps.apple.com/ee/app/bolt-food/id1451492388",
       "[website] https://*.boltable.eu",
       "[website] https://bolt.eu/",
+      "[website] https://new-food.bolt.eu",
       "[website] https://taxify.eu/"
     ],
     "out_of_scope": [
@@ -2046,6 +2047,10 @@
     "url": "https://bugcrowd.com/engagements/fivetran-mbb-og",
     "max_payout": 7500,
     "in_scope": [
+      "[other] https://it-fivetran.com",
+      "[website] https://*.dbt.com",
+      "[website] https://*.dbtlabs.com",
+      "[website] https://*.getdbt.com",
       "[website] https://fivetran.com/login"
     ],
     "out_of_scope": [
@@ -3104,6 +3109,7 @@
     "url": "https://bugcrowd.com/engagements/magic-apps",
     "max_payout": 1500,
     "in_scope": [
+      "[website] https://app.magicestimations.com",
       "[website] https://marketplace.atlassian.com/apps/1223655/magic-estimations-async-and-planning-poker-sizing-for-jira?hosting=cloud&tab=overview"
     ],
     "out_of_scope": []
