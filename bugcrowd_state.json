@@ -221,12 +221,9 @@
       "[website] https://marketplace.atlassian.com/apps/1215431/ai-powered-automated-release-notes-for-jira?hosting=cloud&tab=overview",
       "[website] https://marketplace.atlassian.com/apps/1217536/embedder-for-confluence?hosting=cloud&tab=overview",
       "[website] https://marketplace.atlassian.com/apps/1218801/upraise-for-employee-garrison?hosting=cloud&tab=overview",
-      "[website] https://marketplace.atlassian.com/apps/1219003/enriched-profiles-for-jsm?hosting=cloud&tab=overview",
       "[website] https://marketplace.atlassian.com/apps/1220406/upraise-people-for-jira?hosting=cloud&tab=overview",
       "[website] https://marketplace.atlassian.com/apps/1221519/roadmap-portal-for-jira-service-desk?tab=overview&hosting=cloud",
-      "[website] https://marketplace.atlassian.com/apps/1225551/typeform-integration-for-jsm?hosting=cloud&tab=overview",
       "[website] https://marketplace.atlassian.com/apps/1225798/screenjar-screen-recorder-for-jira?tab=overview&hosting=cloud",
-      "[website] https://marketplace.atlassian.com/apps/1228848/release-planning-and-reports-for-jira?hosting=cloud&tab=overview",
       "[website] https://marketplace.atlassian.com/apps/1230896/arn-confluence-helper-app?hosting=cloud&tab=overview"
     ],
     "out_of_scope": []
@@ -1344,12 +1341,12 @@
     ],
     "out_of_scope": [
       "[other] Public Network / Veranstaltungsnetz",
+      "[website] https://*/advuew/*",
       "[website] https://*/agssoe/* (Multiple Domains)",
       "[website] https://*/geoserverneuogd/* (Multiple Domains)",
+      "[website] https://*/umfrage/*",
       "[website] https://bi.bildung-wien.gv.at/*",
-      "[website] https://www.geschichtewiki.wien.gv.at",
-      "[website] https://www.wien.gv.at/advuew/*",
-      "[website] https://www.wien.gv.at/umfrage/*"
+      "[website] https://www.geschichtewiki.wien.gv.at"
     ]
   },
   "https://bugcrowd.com/engagements/classdojo": {
