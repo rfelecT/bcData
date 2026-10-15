@@ -212,6 +212,25 @@
     ],
     "out_of_scope": []
   },
+  "https://bugcrowd.com/engagements/amoeboids": {
+    "name": "Amoeboids",
+    "url": "https://bugcrowd.com/engagements/amoeboids",
+    "max_payout": 1500,
+    "in_scope": [
+      "[website] https://marketplace.atlassian.com/apps/1212849/upraise-for-employee-success-with-okrs?hosting=cloud&tab=overview",
+      "[website] https://marketplace.atlassian.com/apps/1215431/ai-powered-automated-release-notes-for-jira?hosting=cloud&tab=overview",
+      "[website] https://marketplace.atlassian.com/apps/1217536/embedder-for-confluence?hosting=cloud&tab=overview",
+      "[website] https://marketplace.atlassian.com/apps/1218801/upraise-for-employee-garrison?hosting=cloud&tab=overview",
+      "[website] https://marketplace.atlassian.com/apps/1219003/enriched-profiles-for-jsm?hosting=cloud&tab=overview",
+      "[website] https://marketplace.atlassian.com/apps/1220406/upraise-people-for-jira?hosting=cloud&tab=overview",
+      "[website] https://marketplace.atlassian.com/apps/1221519/roadmap-portal-for-jira-service-desk?tab=overview&hosting=cloud",
+      "[website] https://marketplace.atlassian.com/apps/1225551/typeform-integration-for-jsm?hosting=cloud&tab=overview",
+      "[website] https://marketplace.atlassian.com/apps/1225798/screenjar-screen-recorder-for-jira?tab=overview&hosting=cloud",
+      "[website] https://marketplace.atlassian.com/apps/1228848/release-planning-and-reports-for-jira?hosting=cloud&tab=overview",
+      "[website] https://marketplace.atlassian.com/apps/1230896/arn-confluence-helper-app?hosting=cloud&tab=overview"
+    ],
+    "out_of_scope": []
+  },
   "https://bugcrowd.com/engagements/appliger": {
     "name": "AppLiger",
     "url": "https://bugcrowd.com/engagements/appliger",
@@ -1867,6 +1886,17 @@
     ],
     "out_of_scope": []
   },
+  "https://bugcrowd.com/engagements/envision-ehf": {
+    "name": "Smart Guess ehf. - Marketplace Bug Bounty Program",
+    "url": "https://bugcrowd.com/engagements/envision-ehf",
+    "max_payout": 1500,
+    "in_scope": [
+      "[website] https://marketplace.atlassian.com/apps/1225496/?hosting=cloud",
+      "[website] https://marketplace.atlassian.com/apps/1234104/smart-guess-free-planning-poker-for-jira?tab=overview&hosting=cloud",
+      "[website] https://marketplace.atlassian.com/apps/4028833452/smart-guess-time-in-status-flow-intelligence-ai-guidance?hosting=cloud&tab=overview"
+    ],
+    "out_of_scope": []
+  },
   "https://bugcrowd.com/engagements/epam-mbb-og": {
     "name": "EPAM Systems Managed Bug Bounty Program",
     "url": "https://bugcrowd.com/engagements/epam-mbb-og",
@@ -2195,21 +2225,6 @@
       "[website] https://www.hostgator.com.br"
     ]
   },
-  "https://bugcrowd.com/engagements/hotdoc": {
-    "name": "HotDoc",
-    "url": "https://bugcrowd.com/engagements/hotdoc",
-    "max_payout": 8000,
-    "in_scope": [
-      "[api] \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
-      "[website] \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
-      "[website] \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588"
-    ],
-    "out_of_scope": [
-      "[android] \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
-      "[ios] \u2588\u2588\u2588\u2588\u2588\u2588\u2588",
-      "[website] \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588"
-    ]
-  },
   "https://bugcrowd.com/engagements/hpe-networking-product-public": {
     "name": "HPE Networking Product Public Program",
     "url": "https://bugcrowd.com/engagements/hpe-networking-product-public",
@@ -2248,8 +2263,6 @@
     "in_scope": [
       "[website] https://www.arrowfilms.com",
       "[website] https://www.cultbeauty.co.uk/",
-      "[website] https://www.enjoyselfish.com",
-      "[website] https://www.illamasqua.com/",
       "[website] https://www.lookfantastic.com/",
       "[website] https://www.mankind.co.uk/",
       "[website] https://www.matalan.co.uk",
@@ -3032,6 +3045,19 @@
     "in_scope": [
       "[website] https://marketplace.atlassian.com/apps/1230303/project-templates-for-jira?hosting=cloud&tab=overview",
       "[website] https://marketplace.atlassian.com/apps/1235430/space-templates-for-confluence?tab=overview&hosting=cloud"
+    ],
+    "out_of_scope": []
+  },
+  "https://bugcrowd.com/engagements/lively-apps": {
+    "name": "Lively Apps GmbH - marketplace Bug Bounty Program",
+    "url": "https://bugcrowd.com/engagements/lively-apps",
+    "max_payout": 1500,
+    "in_scope": [
+      "[website] https://marketplace.atlassian.com/apps/1211199/pocketquery-sql-rest-for-confluence?hosting=cloud&tab=overview",
+      "[website] https://marketplace.atlassian.com/apps/1213057/lively-blogs-vibrant-news-for-confluence?hosting=cloud&tab=overview",
+      "[website] https://marketplace.atlassian.com/apps/1214272/task-reminder-for-confluence?hosting=cloud&tab=overview",
+      "[website] https://marketplace.atlassian.com/apps/1224660/link-management-for-confluence?hosting=cloud&tab=overview",
+      "[website] https://marketplace.atlassian.com/apps/1224662/usage-statistics-for-confluence?hosting=cloud&tab=overview"
     ],
     "out_of_scope": []
   },
