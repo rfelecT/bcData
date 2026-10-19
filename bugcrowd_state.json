@@ -5571,7 +5571,7 @@
       "[api] https://api.t-mobile.com",
       "[ios] https://apps.apple.com/us/app/t-life/id1111876388",
       "[network] Cellular Network Auth Bypass via Web App/T-Life (404-200-7239)",
-      "[network] T&P Servers (Temporarily Out of Scope)",
+      "[network] http://10.72.218.66/flag.txt",
       "[other] Self-Register Account on T-Mobile Microsoft Entra ID",
       "[other] Subdomain Takeover",
       "[website] https://*.assurancewireless.com",
