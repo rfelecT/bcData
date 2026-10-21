@@ -749,6 +749,7 @@
       "[other] https://github.com/trustwallet/wallet-core/",
       "[website] Trustwallet Chrome Extension",
       "[website] coinmarketcap.com",
+      "[website] https://binance.th/",
       "[website] https://binance.tr",
       "[website] https://www.binance.com/",
       "[website] https://www.binance.us/",
@@ -1342,7 +1343,9 @@
     "out_of_scope": [
       "[other] Public Network / Veranstaltungsnetz",
       "[website] https://*/advuew/*",
+      "[website] https://*/agsinspire/*",
       "[website] https://*/agssoe/* (Multiple Domains)",
+      "[website] https://*/arcgis/*",
       "[website] https://*/geoserverneuogd/* (Multiple Domains)",
       "[website] https://*/umfrage/*",
       "[website] https://bi.bildung-wien.gv.at/*",
